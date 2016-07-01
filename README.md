@@ -48,7 +48,7 @@ Your code will be reviewed for the following objectives:
 * Open using Sinatra
 
 #### Option #2
-* Click on given [Heroku link](upper-toonie-64749.herokuapp.com)
+* Click on given [Heroku page](upper-toonie-64749.herokuapp.com)
 
 ## Known Bugs
 * Protozoa
