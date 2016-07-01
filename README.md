@@ -27,8 +27,8 @@ Your code will be reviewed for the following objectives:
 | Show the original string inputted by user | "Sam I am. Sam eats green eggs and ham." | Sam I am. Sam eats green eggs and ham. |
 | Find words that were input more than once | :method | X |
 | Find how many times multiple-inputted words were input | :method | X |
-| Spit out which words were inputted more than once | "Sam I am. Sam eats green eggs and ham." | Repeated words: Sam |
-| Spit out the number of times multiple-inputted words were input | "Sam I am. Sam eats green eggs and ham." | Sam: 2 times |
+| Generates which words were inputted more than once | "Sam I am. Sam eats green eggs and ham." | Repeated words: Sam |
+| Generates the number of times multiple-inputted words were input | "Sam I am. Sam eats green eggs and ham." | Sam: 2 times |
 
 ## Technologies Used
 * Markdown
