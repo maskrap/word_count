@@ -7,8 +7,8 @@ get('/') do
   erb(:index)
 end
 
-get('/words') do
-  @word_input = params.fetch('word_input')
-  @count = params.fetch('word_input').count(@word_input)
-  erb(:words)
+get('/number') do
+  @find = params.fetch('find')
+  @number = params.fetch('sentence').number(@find)
+  erb(:number)
 end

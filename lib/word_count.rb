@@ -1,13 +1,13 @@
 require('pry')
 
 class String
-  define_method(:word_count) do |word|
-    calculator = 0
-    self.split(" ").each() do |count|
-      if count.downcase().gsub(/[[:punct:]]/, '') == word .downcase().gsub(/[[:punct:]]/, '')
-        calculator+=1
+  define_method(:number) do |find|
+    counter = 0
+    self.split(" ").each() do |word|
+      if word.downcase().gsub(/[[:punct:]]/, '') == find.downcase().gsub(/[[:punct:]]/, '')
+        counter+=1
       end
     end
-    calculator
+    counter
   end
 end
