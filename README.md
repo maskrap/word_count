@@ -25,8 +25,8 @@ Your code will be reviewed for the following objectives:
 | ------------- |:-------------:| -----:|
 | Allow user to type in string into form box | X | X |
 | Show the original string inputted by user | "Sam I am. Sam eats green eggs and ham." | Sam I am. Sam eats green eggs and ham. |
-| Find words that were input more than once | :method | X |
-| Find how many times multiple-inputted words were input | :method | X |
+| Find words that were input more than once | :number | X |
+| Find how many times multiple-inputted words were input | :number | X |
 | Generates which words were inputted more than once | "Sam I am. Sam eats green eggs and ham." | Repeated words: Sam |
 | Generates the number of times multiple-inputted words were input | "Sam I am. Sam eats green eggs and ham." | Sam: 2 times |
 
@@ -48,7 +48,7 @@ Your code will be reviewed for the following objectives:
 * Open using Sinatra
 
 #### Option #2
-* Click on given Heroku link
+* Click on given [Heroku link](upper-toonie-64749.herokuapp.com)
 
 ## Known Bugs
 * Protozoa
